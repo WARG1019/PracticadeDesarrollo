@@ -3,42 +3,43 @@
 <head> 
 	<meta charset="UTF-8">
 	<title>Invie - Tus mejores guitarras</title> <!-- Titulo del documento web -->
+	<link rel="stylesheet" href="css/invie.css">
 </head>
 <body>
 
- 	<header> <!-- header -->
+ 	<header id="header" class="header"> <!-- header -->
 
  		<!--logotipo -->
 
- 		<figure> <!-- Envuelve una imagen -->
+ 		<figure class="logotipo"> <!-- Envuelve una imagen -->
  		<img src="image/invie.png" alt="Invie logo" width="186" height="60">	
  			
  		</figure>
 
 
         <!-- menu -->
-        <nav>
+        <nav class="menu">
         	<ul>
-        		<li><a href="">Home</a></li>
-        		<li><a href="">Precios</a></li>
-        		<li><a href=""></a></li>
-        		<li><a href=""></a></li>
+        		<li><a href="index.html">Home</a></li>
+        		<li><a href="precios.html">Precios</a></li>
+        		<li><a href="#guitarras">Guitarras</a></li>
+        		<!--<li><a href=""></a></li> -->
         	</ul>
         </nav>
 
 
  	</header>
 
- 	<section>
+ 	<section id="portada" class="portada">
 	 	<!-- portadas -->
 
 	 	<!-- Titulo -->
 
-	 	<h1>Guitarras inviesibles</h1>
+	 	<h1 class="titulo">Guitarras inviesibles</h1>
 
 	 	<!-- Resumen -->
 
-        <h3>Se la estrella de rock qe siempre quisiste ser</h3>
+        <h3 class="title-a">Se la estrella de rock qe siempre quisiste ser</h3>
 
 
 	 	<!-- boton -->
@@ -46,18 +47,18 @@
 	 	<button>Conoce mas</button>
 
 
- 	</section> <!-- Guitarras -->
+ 	</section id="guitarras" class="guitarras"> <!-- Guitarras -->
 
  	<h2>Nuestra Guitarra</h2>
     
       <!-- guitarra1 -->
       
-      <article>
+      <article class="guitarra">
 
 	      	
-	     <img src="image/invie-acustica.png" alt="">
+	     <img src="image/invie-acustica.png" alt="Guitarras Invie Acustica." width="200">
 
-	      <h3>Invie Acustica</h3>
+	      <h3 class="title-b">Invie Acustica</h3>
 	       <ol>
 	       	<li>Estilo vintage</li>
 	       	<li>Madera Pura</li>
@@ -68,11 +69,11 @@
 
 
       <!-- guitarra2 -->
-      <article>
+      <article class="guitarra">
 
-      <img src="image/invie-classic.png" alt="">
+      <img src="image/invie-classic.png" alt="Guitarra Invie Classic." width="200">
 
-       <h3>Invie Classic</h3>
+       <h3 class="title-b">Invie Classic</h3>
        <ol>
        	<li>Estilo vintage</li>
        	<li>Liviana</li>
